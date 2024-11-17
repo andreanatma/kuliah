@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TugasOneMobileProgramming" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TugasOneMobileProgramming" parent="Base.Theme.TugasOneMobileProgramming" />
+
+    <style name="AppItem">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="AppItemTextView">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppItemMoreView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/custome_background_text_view_8</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/more</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_layout</item>
+    </style>
+
+    <style name="AppItemButtonView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/text_layout</item>
+    </style>
+
+    <style name="AppItemTitleView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
