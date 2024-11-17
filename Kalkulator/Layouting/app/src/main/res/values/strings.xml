@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Google Play lt</string>
+    <string name="google_play">Google Play</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="apps">Apps</string>
+    <string name="games">Games</string>
+    <string name="movies_tv">Movies Tv</string>
+    <string name="musik">Musik</string>
+    <string name="books">Books</string>
+    <string name="news">News</string>
+    <string name="popular_apps_game">Popular Apps + Game</string>
+    <string name="more">MORE</string>
+    <string name="youtube">YouTube</string>
+    <string name="telegram">Telegram</string>
+    <string name="line">Line</string>
+    <string name="facebook">Facebook</string>
+    <string name="new_game">New + Game</string>
+    <string name="mobile_legends">Mobile Legends</string>
+    <string name="pubg_mobile">PUBG Mobile</string>
+    <string name="efootball">Efootball</string>
+    <string name="pou">Pou</string>
+    <string name="freefire">FreeFire</string>
+</resources>
