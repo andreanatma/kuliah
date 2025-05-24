@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/image_menu"
+            android:text="@string/google_play"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/image_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/google_play"
+            android:src="@drawable/ic_menu" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_1"
+            android:text="@string/apps" />
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_2"
+            android:text="@string/games" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_3"
+            android:text="@string/movies_tv" />
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custom_background_text_view_4"
+            android:text="@string/musik" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custome_background_text_view_5"
+            android:text="@string/books" />
+
+        <TextView
+            style="@style/AppItemButtonView"
+            android:background="@drawable/custome_background_text_view_7"
+            android:text="@string/news" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/AppItemTitleView"
+            android:text="@string/popular_apps_game" />
+
+        <TextView style="@style/AppItemMoreView" />
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/whatsapp"
+                    android:src="@drawable/whatsapp" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/whatsapp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/youtube"
+                    android:src="@drawable/ytb" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/youtube" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/telegram"
+                    android:src="@drawable/telegram" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/telegram" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/line"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/facebook"
+                    android:src="@drawable/facebookkk" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/facebook" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/AppItemTitleView"
+            android:text="@string/new_game" />
+
+
+        <TextView style="@style/AppItemMoreView" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/mobile_legends"
+                    android:src="@drawable/mobile_legends" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/mobile_legends" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/pubg_mobile"
+                    android:src="@drawable/pubg_mobile" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/pubg_mobile" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/efootball"
+                    android:src="@drawable/efootball" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/efootball" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:contentDescription="@string/pou"
+                    android:src="@drawable/pouu" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/pou" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/AppItem"
+                    android:src="@drawable/freefire"
+                    android:contentDescription="@string/freefire" />
+
+                <TextView
+                    style="@style/AppItemTextView"
+                    android:text="@string/freefire" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
+
